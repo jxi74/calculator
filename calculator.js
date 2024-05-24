@@ -66,7 +66,7 @@ btns.forEach((btn) => {
                 screen.textContent += " " + btn.textContent + " ";
             if (parts[2] !== undefined) {
                 operator2 = btn.textContent;
-                console.log(operator2);
+                //console.log(operator2);
                 callOperate();
             }
         }
@@ -87,8 +87,8 @@ btns.forEach((btn) => {
         }
         lastInput = btn.textContent;
         parts = screen.textContent.split(' ');
-        console.log(lastInput);
-        console.log(parts);
+        //console.log(lastInput);
+        //console.log(parts);
     });
 });
 
